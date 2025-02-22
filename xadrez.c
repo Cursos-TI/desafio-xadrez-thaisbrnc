@@ -109,18 +109,18 @@ void movimentarCavalo(char direcao[3]){
 int main() {
     //inicializaçao das variaveis
     direcao[0] = 'C'; //cima
-    direcao[1] = 'E'; //esquerda
-    numCasas = 3;
+    direcao[1] = 'D'; //direita
+    numCasas = 5;
 
     //chamada dos metodos
     printf("\nBispo movimentando... \n");
     movimentarBispo(numCasas, direcao);
 
     printf("\nRainha movimentando... \n");
-    movimentarRainha(numCasas, direcao[0]);
+    movimentarRainha(8, 'E');
 
     printf("\nTorre movimentando... \n");
-    movimentarTorre(numCasas, direcao[1]);
+    movimentarTorre(numCasas, 'D');
 
     printf("\nCavalo movimentando... \n");
     movimentarCavalo(direcao);
