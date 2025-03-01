@@ -1,3 +1,26 @@
+REQUISITOS PARA EXECUTAR O PROGRAMA EM IDE:
+
+1. Possuir IDE instalada:
+(VS Code, Code::Blocks ou Dev-C++)
+2. Possuir um compilador instalado:
+[Pre-built Toolchains](https://www.mingw-w64.org/downloads/)
+
+
+ORIENTAÇÕES PARA EXECUTAR O PROGRAMA NO GITHUB:
+
+1. Na página inicial desse repositório, aba "Code", clique no botão "Code", vá na aba "Codespaces" e clique em "Create codespace on main".
+2. Instale C/C++ Extension Pack.
+3. Procure pelo ícone de Executar/Depurar na barra lateral esquerda ou ao lado direito superior e clique no botão "Executar e Depurar", selecione GCC e o programa será executado.
+
+
+ORIENTAÇÕES PARA TESTAR O CÓDIGO:
+
+1. É possível testar diferentes direções das peças e número de casas alterando os valores dos parâmetros passados nas chamadas dos métodos entre a linha 117 e 126. Onde C = cima / B = baixo / D = direita / E = esquerda.
+
+
+_____________________________________________________________________________________________________
+
+
 # ⚠️ Importante!!!
 Você pode escolher qualquer um dos desafios para desenvolver. Sinta-se à vontade para começar pelo desafio que mais lhe interessa.
 
